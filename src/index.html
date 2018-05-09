@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="home">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+
+        <a href="index.html" class="navbar-brand ml-5">
+            <img src="img/book-logo.png" width="150" height="50" alt="Book Logo">
+            <h3 class="d-inline align-middle"></h3>
+        </a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#About" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Authors" class="nav-link">Authors</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact Us</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- showcase -->
+
+    <section id="showcase" class="py-5">
+        <div class="primary-overlay text-white">
+            <div class="container">
+                <div class="row header-content">
+                    <div class="col-lg-6 text-center pr-5">
+                        <h1 class="display-4 pt-5 showcase-heading">
+                            “Be awesome! Be a book nut!” –Dr. Seuss
+                        </h1>
+                        <p class="lead">If you only read the books that everyone else is reading, you can only think what everyone else is
+                            thinking. - Haruki Murakami </p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                            <i class="fa fa-arrow-right"> </i> Read More</a>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <img src="img/book-cover.png" alt="Book" class="img-fluid book-cover d-none d-lg-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- showcase -->
+    <section id="newsletter" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" class="form-control form-control-lg" placeholder="Enter Name">
+                </div>
+                <div class="col-md-4">
+                    <input type="email" class="form-control form-control-lg" placeholder="Enter email">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary btn-lg btn-block">
+                        <i class="fa fa-envelope-open-o pr-2"></i> Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--boxes-->
+
+    <section id="boxes" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 d-flex align-items-stretch">
+                    <div class="card text-center border-primary">
+                        <div class="card-body">
+                            <h3 class="text-primary"> Stay Positive </h3>
+                            <p class="text-muted">We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch">
+                    <div class="card text-center bg-primary text-white">
+                        <div class="card-body">
+                            <h3> Dream Big </h3>
+                            <p>Don’t dream small. Dream big. Dream big as much as you can. Chase them and live them. All you need to trust yourself.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch">
+                    <div class="card text-center border-primary">
+                        <div class="card-body">
+                            <h3 class="text-primary"> Keep Smiling </h3>
+                            <p class="text-muted">It is almost impossible to think of something no one has thought of before, but it is always possible to add different frills.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch">
+                    <div class="card text-center bg-primary text-white">
+                        <div class="card-body">
+                            <h3> Be Honest </h3>
+                            <p>Be honest. Don’t monger over the past. Accept your flaws. Flaws are beautiful. And define your worth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="py-5 text-center bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="info-header mb-5">
+                        <h1 class="text-primary pb-3">
+                            Why This Book?
+                        </h1>
+                        <p class="lead pb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cumque perspiciatis, ipsum ipsam ea dicta?
+                        </p>
+                    </div>
+
+                    <!--Accordion-->
+                    <div id="accordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header" id="heading1">
+                                <h5 class="mb-0"></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/navbar-fixed.js"></script>
+</body>
+
+</html>

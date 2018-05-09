@@ -1,0 +1,30 @@
+{
+  "name": "bs4-book-theme",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 workflow",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumancsnit/bs4-book-theme.git"
+  },
+  "author": "Suman Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumancsnit/bs4-book-theme/issues"
+  },
+  "homepage": "https://github.com/sumancsnit/bs4-book-theme#readme",
+  "dependencies": {
+    "bootstrap": "4.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
