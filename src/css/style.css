@@ -2,10 +2,18 @@ body {
   margin-top: 105px; }
 
 .btn:hover {
+  -webkit-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
   transform: translateY(-3px);
+  -webkit-box-shadow: 0 7px 2rem rgba(0, 0, 0, 0.2);
   box-shadow: 0 7px 2rem rgba(0, 0, 0, 0.2); }
 
+.card {
+  -webkit-box-shadow: 0 5px 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 2rem rgba(0, 0, 0, 0.2); }
+
 .navbar {
+  -webkit-box-shadow: 2px 2px 7px rgba(242, 107, 29, 0.7);
   box-shadow: 2px 2px 7px rgba(242, 107, 29, 0.7);
   opacity: 0.9;
   background: #fff; }
@@ -16,9 +24,6 @@ body {
 #showcase {
   position: relative;
   background: url("../img/bg.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   min-height: 600px; }
   #showcase .primary-overlay {
@@ -34,12 +39,44 @@ body {
     height: 27rem;
     margin-top: 16%;
     margin-left: 30%;
+    -webkit-box-shadow: 0 10px 2rem rgba(0, 0, 0, 0.5);
     box-shadow: 0 10px 2rem rgba(0, 0, 0, 0.5); }
-
-.card {
-  min-height: 200px; }
 
 .info-header {
   width: 50%;
   margin: auto;
   border-bottom: 1px solid #ddd; }
+
+#Authors img {
+  margin-top: -3.125rem; }
+
+#Authors .fa {
+  font-size: 1.562rem; }
+
+#Authors p {
+  padding-right: .5rem;
+  padding-left: .5rem; }
+
+#Authors .card:hover {
+  background-color: #F26B1D;
+  color: #fff; }
+  #Authors .card:hover .fa {
+    color: #fff; }
+
+@media (max-width: 575.98px) {
+  .display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2; }
+  #About .about-heading {
+    font-size: 1.8rem; }
+  #About .lead {
+    font-size: .8rem; }
+  #About .card-body {
+    font-size: 1rem; }
+  #Authors h1 {
+    font-size: 1.8rem; }
+  #Authors .lead {
+    font-size: .8rem; }
+  #footer p {
+    font-size: .8rem; } }
